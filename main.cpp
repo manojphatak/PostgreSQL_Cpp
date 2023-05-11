@@ -3,7 +3,7 @@
 #include <sstream>
 
 int main() {
-    const char conninfo[] = "postgresql://postgres@localhost?port=5432&dbname=postgres&user=postgres&password=root";
+    const char conninfo[] = "postgresql://postgres@localhost?port=5432&dbname=postgres&user=postgres&password=postgres";
 
     PGconn *conn = PQconnectdb(conninfo);
 
